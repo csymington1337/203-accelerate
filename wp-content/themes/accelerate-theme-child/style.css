@@ -44,14 +44,13 @@ article, .case-study {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	max-width: 100%;
 	padding-top: 20px;
 }
 
 .case-study-sidebar {
 	display: block;
-	justify-content:flex-start;
-	width: 30%;
+	min-width: 30%;
+	max-width: 30%;
 }
 
 .case-study-sidebar h2, .case-study-sidebar h4, .case-study-sidebar p {
@@ -82,11 +81,13 @@ article, .case-study {
 
 .case-study-images {
 	display: block;
-	justify-content: flex-end;
+
 }
 
 .case-study-images img {
+	margin-left: 100px;
 	padding: 30px 0;
+
 }
 
 
@@ -98,3 +99,5 @@ article, .case-study {
         margin-bottom: 2em;
 	}
 }
+
+
