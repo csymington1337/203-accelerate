@@ -53,7 +53,7 @@ get_header(); ?>
 
 		<nav id="navigation" class="container">
 			<div class="left">
-				<a href="<?php echo site_url('/blog/') ?>">
+				<a href="<?php echo site_url('/case-studies/') ?>">
 				&larr; <span>Back to work</span></a>
 			</div>
 		</nav>
