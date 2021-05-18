@@ -131,6 +131,28 @@ article, .case-study {
 	margin: 0 0 30px 0;
 }
 
+/*social media nav icon styles */
+
+.menu-social-media-nav-container ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+.menu-social-media-nav-container ul li {
+	background-color: #3b3b3b;
+	border-radius: 50%;
+	margin: 0 3px;
+	padding: 0 3px;
+}
+
+.menu-social-media-nav-container ul li .fa-linkedin {
+	padding: 0 1px 2px 1px;
+}
+
+.menu-social-media-nav-container ul li a {
+	color: #fff;
+}
 
 /* Media Queries */
 @media (min-width: 768px) {
